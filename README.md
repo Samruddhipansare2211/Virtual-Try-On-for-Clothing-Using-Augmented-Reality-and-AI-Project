@@ -1,6 +1,4 @@
-Here’s the complete **README.md** ready to copy-paste directly into your project:
 
-````markdown
 # 👗 Virtual Try-On for Clothing Using Augmented Reality and AI
 
 <p align="center">
@@ -8,21 +6,21 @@ Here’s the complete **README.md** ready to copy-paste directly into your proje
 <img src="https://img.shields.io/badge/Flask-Web_Framework-orange?style=for-the-badge&logo=flask"/>
 <img src="https://img.shields.io/badge/OpenCV-Image_Processing-red?style=for-the-badge&logo=opencv"/>
 <img src="https://img.shields.io/badge/MediaPipe-Pose_Detection-green?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Tailwind_CSS-Frontend-blueviolet?style=for-the-badge&logo=tailwind-css"/>
+
 </p>
 
 ---
 
 ## 🌟 Project Overview
 
-Online apparel shopping often leaves customers uncertain because they **cannot try clothes before buying**. This leads to **high return rates** and **low satisfaction**.
+Online shopping for apparel often leads to uncertainty because customers cannot try clothes before purchasing. This results in **high return rates** and **poor customer satisfaction**.
 
-Our solution is a **Virtual Try-On System** that allows users to:
+Our solution: a **Virtual Try-On System** that allows users to:
 
-- Upload full-body photos or use a webcam.
-- Select and switch between multiple outfits seamlessly.
-- See **realistic AI-powered previews** in real-time.
-- Enjoy an intuitive, visually appealing interface.
+* Upload full-body photos or use a webcam.
+* Select and switch between multiple outfits seamlessly.
+* See **realistic AI-powered previews** in real-time.
+* Enjoy an intuitive and visually appealing interface.
 
 ---
 
@@ -46,7 +44,7 @@ flowchart LR
     WebApp --> AI[Pose Detection & Cloth Overlay]
     AI --> Assets[Cloth & Model Images]
     WebApp --> Browser[Display Try-On Result]
-````
+```
 
 ---
 
@@ -108,13 +106,12 @@ Open the **Virtual-Try-On-Application** folder in VS Code.
 python -m venv venv
 venv\Scripts\activate
 ```
-
 ---
 
 ### 3️⃣ Install Dependencies
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirement.txt
 ```
 
 **Key Packages:**
@@ -143,11 +140,11 @@ http://127.0.0.1:5000
 
 ## 🖼️ Screenshots & Demo
 
-| Upload Try-On                                                     | Camera Try-On                                                     |
-| ----------------------------------------------------------------- | ----------------------------------------------------------------- |
-| ![Upload Result](assets/Project_Screenshot/Screenshot_upload.png) | ![Camera Result](assets/Project_Screenshot/Screenshot_camera.png) |
+| Upload Try-On                                     | Camera Try-On                                     |
+| ------------------------------------------------- | ------------------------------------------------- |
+| ![Upload Result](assets/cloth/upload_example.png) | ![Camera Result](assets/image/camera_example.png) |
 
-🎥 **Demo Video:** [Demo Video](assets/demo_virtual_try_on.mp4)
+🎥 **Demo Video:** [assets/demo_video.mp4](assets/demo_video.mp4)
 
 ---
 
@@ -197,7 +194,3 @@ http://127.0.0.1:5000
 
 ---
 
-<p align="center">
-<sub>© 2026 Samruddhi Pansare. Built with Python, Flask & OpenCV.</sub>
-</p>
-```
